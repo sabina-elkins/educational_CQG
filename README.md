@@ -64,7 +64,7 @@ In following the theme of AIED 2023, we want to be transparent about the composi
 ![Educational Discipline](edu_field.jpg)
 
 ## Result Tables
-N.b. These results do not include the 'agreement passage' which was annotated by all annotators to assess their inter-annotator agreemeent on the task.
+N.b. These results do not include the 'agreement passage' which was annotated by all annotators to assess their inter-annotator agreement on the task.
 ### Biology Domain
 | Question Taxonomy | n | Relevance (avg) | Relevance (std) | Grammar (avg) | Grammar (std) | Adherence (avg) | Adherence (std) | Answerable (avg) | Answerable (std) | Useful (avg) | Useful (std) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
