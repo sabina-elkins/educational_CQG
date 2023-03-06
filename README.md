@@ -15,9 +15,9 @@ The educational domain has the potential to benefit greatly from controllable te
 | analyzing | Bloom's | The question should ask students to break material into parts, and/or show how different ideas relate to one another. |
 | evaluating | Bloom's | The question should ask students to give opinions on, make judgments about, or interpret meaning from material. |
 | creating | Bloom's | The question should ask students to combine material together in a different way than it was presented. |
-| beginner | Level | The question should be posed so that the correct answer is a simple span from the input context (often a single concept or a list). |
-| intermediate | Level | The question should be posed so that the correct answer is a span from the input context that is more complex than a single concept (eg. an explanation or an example), or requires understanding on the part of the student to arrive at a simple answer. |
-| advanced | Level | The question should be posed so that the correct answer requires a student's rephrasing of multiple parts of the input, or the answer must require independent thought. |
+| beginner | level | The question should be posed so that the correct answer is a simple span from the input context (often a single concept or a list). |
+| intermediate | level | The question should be posed so that the correct answer is a span from the input context that is more complex than a single concept (eg. an explanation or an example), or requires understanding on the part of the student to arrive at a simple answer. |
+| advanced | level | The question should be posed so that the correct answer requires a student's rephrasing of multiple parts of the input, or the answer must require independent thought. |
 
 ## Teacher Assessment Metrics
 | Metric | Definition |
@@ -69,7 +69,7 @@ N.b. These results do not include the 'agreement passage' which was annotated by
 ### Biology Domain
 | Question Taxonomy | n | Relevance (avg) | Relevance (std) | Grammar (avg) | Grammar (std) | Adherence (avg) | Adherence (std) | Answerable (avg) | Answerable (std) | Useful (avg) | Useful (std) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| all candidates | 36 | 0.9667 | 0.1798 | 0.9630 | 0.1897 | 0.6741 | 0.4696 | 0.9259 | 0.2631 | 3.507 | 0.6884 |
+| all candidates | 36 | 0.9722 | 0.1646 | 0.9704 | 0.1699 | 0.6914 | 0.4626 | 0.9296 | 0.2562 | 3.5926 | 0.6820 |
 | remembering | 36 | 0.9167 | 0.2803 | 0.9333 | 0.2537 | 0.9167 | 0.2803 | 0.9667 | 0.1826 | 3.7083 | 0.5901 |
 | understanding | 36 | 0.9722 | 0.1667 | 0.9667 | 0.1826 | 0.7778 | 0.4216 | 1.0000 | 0.0000 | 3.7361 | 0.4051 |
 | applying | 36 | 0.9722 | 0.1667 | 1.0000 | 0.0000 | 0.5833 | 0.5000 | 0.9000 | 0.3051 | 3.5556 | 0.7049 |
@@ -83,13 +83,13 @@ N.b. These results do not include the 'agreement passage' which was annotated by
 ### Machine Learning Domain
 | Question Taxonomy | n | Relevance (avg) | Relevance (std) | Grammar (avg) | Grammar (std) | Adherence (avg) | Adherence (std) | Answerable (avg) | Answerable (std) | Useful (avg) | Useful (std) |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| all candidates | 30 | 0.9722 | 0.1646 | 0.9704 | 0.1699 | 0.6914 | 0.4626 | 0.9296 | 0.2562 | 3.5926 | 0.6820 |
-| remembering | 30 | 0.9667 | 0.1826 | 1.0000 | 0.0000 | 0.8333 | 0.3790 | 1.0000 | 0.0000 | 3.7833 | 0.3869 |
-| understanding | 30 | 1.0000 | 0.0000 | 0.9167 | 0.2887 | 0.8000 | 0.4068 | 0.8333 | 0.3892 | 3.5833 | 0.6029 |
-| applying | 30 | 0.9667 | 0.1826 | 1.0000 | 0.0000 | 0.6667 | 0.4795 | 0.8333 | 0.3892 | 3.6000 | 0.6074 |
-| analyzing | 30 | 0.9667 | 0.1826 | 0.8333 | 0.3892 | 0.7333 | 0.4498 | 0.9167 | 0.2887 | 3.3333 | 0.8743 |
-| evaluating | 30 | 0.9333 | 0.2537 | 1.0000 | 0.0000 | 0.5333 | 0.5074 | 0.8333 | 0.3892 | 3.4167 | 0.8209 |
-| creating | 30 | 0.9333 | 0.2537 | 1.0000 | 0.0000 | 0.4000 | 0.4983 | 1.0000 | 0.0000 | 3.5167 | 0.6226 |
-| beginner | 30 | 1.0000 | 0.0000 | 1.0000 | 0.0000 | 0.6333 | 0.4901 | 1.0000 | 0.0000 | 3.7333 | 0.5683 |
-| intermediate | 30 | 0.9667 | 0.1826 | 1.0000 | 0.0000 | 0.6667 | 0.4795 | 1.0000 | 0.0000 | 3.6167 | 0.5826 |
-| advanced | 30 | 0.9667 | 0.1826 | 0.9167 | 0.2887 | 0.8000 | 0.4068 | 0.9167 | 0.2887 | 2.9833 | 0.7368 |
+| all candidates | 36 | 0.9667 | 0.1798 | 0.9568 | 0.2040 | 0.6741 | 0.4696 | 0.9136 | 0.2819 | 3.7667 | 0.3880 |
+| remembering | 36 | 0.9667 | 0.1826 | 1.0000 | 0.0000 | 0.8333 | 0.3790 | 1.0000 | 0.0000 | 3.5500 | 0.6208 |
+| understanding | 36 | 1.0000 | 0.0000 | 0.8889 | 0.3234 | 0.8000 | 0.4068 | 0.8333 | 0.3835 | 3.6500 | 0.5746 |
+| applying | 36 | 0.9667 | 0.1826 | 1.0000 | 0.0000 | 0.6667 | 0.4795 | 0.8889 | 0.3234 | 3.2667 | 0.8584 |
+| analyzing | 36 | 0.9667 | 0.1826 | 0.8889 | 0.3234 | 0.7333 | 0.4498 | 0.8333 | 0.3835 | 3.4000 | 0.8030 |
+| evaluating | 36 | 0.9333 | 0.2537 | 1.0000 | 0.0000 | 0.5333 | 0.5074 | 0.8333 | 0.3835 | 3.5667 | 0.5371 |
+| creating | 36 | 0.9333 | 0.2537 | 1.0000 | 0.0000 | 0.4000 | 0.4983 | 1.0000 | 0.0000 | 3.7333 | 0.5683 |
+| beginner | 36 | 1.0000 | 0.0000 | 0.9444 | 0.2357 | 0.6333 | 0.4901 | 0.9444 | 0.2357 | 3.6333 | 0.5403 |
+| intermediate | 36 | 0.9667 | 0.1826 | 0.9444 | 0.2357 | 0.6667 | 0.4795 | 1.0000 | 0.0000 | 3.0167 | 0.7250 |
+| advanced | 36 | 0.9667 | 0.1826 | 0.9444 | 0.2357 | 0.8000 | 0.4068 | 0.8889 | 0.3234 | 3.2639 | 0.8659 |
