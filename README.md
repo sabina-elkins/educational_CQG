@@ -6,6 +6,30 @@ All generations from InstructGPT have been included in the interest of promoting
 ## Project Abstract
 The educational domain has the potential to benefit greatly from controllable text generation by large language models. Specifically, high quality generation of diverse questions can reduce the load on teachers to make educational content. Recent work here has made huge progress with automatic and crowd-sourced metrics; but fails to show that real teachers judge the questions as sufficiently useful for the classroom setting. We conduct a large scale human evaluation with teachers to assess the quality and usefulness of outputs from controllable question generation. The results show that these generations are high quality and useful, showing their promise for widespread use in real classroom settings.
 
+## Prompt Format
+Below is a template of the prompt format used to query InstructGPT. The control elements are any of the 9 taxonomic categories from the next section, and their related example contexts and questions can be found in the raw data files.
+```
+Generate {control element} questions.
+
+Passage: {example_context}
+Question: {example_question}
+
+Passage: {example_context}
+Question: {example_question}
+
+Passage: {example_context}
+Question: {example_question}
+
+Passage: {example_context}
+Question: {example_question}
+
+Passage: {example_context}
+Question: {example_question}
+
+Passage: {context}
+Question:
+```
+
 ## Control Elements - Taxonomic Categories
 | Prompt | Taxonomy | Definition |
 |---|---|---|
