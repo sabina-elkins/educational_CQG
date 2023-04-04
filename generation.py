@@ -1,7 +1,7 @@
 """
 Access OpenAI for the generation of controlled generation QG outputs.
 
-Author: Anonymous for AIED 2023 LBR Track Submission
+Author: Sabina Elkins (sabina.elkins@mail.mcgill.ca)
 """
 
 import openai
