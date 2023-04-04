@@ -86,10 +86,10 @@ Machine translation, sometimes referred to by the abbreviation MT (not to be con
 ## Annotator Demographics
 In following the theme of AIED 2023, we want to be transparent about the composition of our annotator set. The following displays the distributions of gender, race, and education (level and field of study).
 
-![Gender](gender.jpg)
-![Race or Ethnicity](race.jpg)
-![Educational Level](edu.jpg)
-![Educational Discipline](edu_field.jpg)
+![Gender](images/gender.jpg)
+![Race or Ethnicity](images/race.jpg)
+![Educational Level](images/edu.jpg)
+![Educational Discipline](images/edu_field.jpg)
 
 ## Result Tables
 N.b. These results do not include the 'agreement passage' which was annotated by all annotators to assess their inter-annotator agreement on the task.
